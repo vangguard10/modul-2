@@ -1,2 +1,2 @@
-# modul-2_latian-1
+# modul-2
 alfarizqi wira anadyar 065002200034
