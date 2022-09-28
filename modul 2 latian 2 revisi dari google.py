@@ -6,23 +6,23 @@ source: https://www.w3resource.com/python-exercises/math/python-math-exercise-27
 modified by: alfarizqi wira anadyar-065002200034
 """
 
-from math import radians, sin, cos, acos
+import math as m
 print('this program will calculate the distance between to point of location')
 loc1=input('the first location name: ')
 loc2=input('the second location name: ')
 print('==================================')
 
 print("Input coordinates of two points of locations:")
-x1 = radians(float(input("latitude location 1: ")))
-y1 = radians(float(input("longtitude location 1: ")))
+x1 = m.radians(float(input("latitude location 1: ")))
+y1 = m.radians(float(input("longtitude location 1: ")))
 print('==================================')
-x2 = radians(float(input("latitude location 2: ")))
-y2 = radians(float(input("longtitude location 2: ")))
+x2 = m.radians(float(input("latitude location 2: ")))
+y2 = m.radians(float(input("longtitude location 2: ")))
 
 if (x1 == x2) and (y1 == y2):
     dist = 0
 else :
-    dist = 6371.01 * acos(sin(x1)*sin(x2) + cos(x1)*cos(x2)*cos(y1 - y2))
+    dist = 6371.01 * m.acos(m.sin(x1)*m.sin(x2) + m.cos(x1)*m.cos(x2)*m.cos(y1 - y2))
 
 print('==================================')
 print("The distance between",loc1,'and',loc2,"is %.2f km." % dist)
