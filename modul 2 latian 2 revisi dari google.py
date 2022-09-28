@@ -2,8 +2,7 @@
 """
 Created on Tue Sep 27 15:47:31 2022
 
-source: https://www.w3resource.com/python-exercises/math/python-math-exercise-27.php
-modified by: alfarizqi wira anadyar-065002200034
+@author: alfarizqi wira anadyar
 """
 
 import math as m
